@@ -167,15 +167,25 @@ b{
         /* margin: auto; */
        left: 50%;
        transform: translateX(-50%);
-       top: 10%;
+       top: 5%;
        position: relative;
+}
+#education-search{
+    height: 50vh;
+    width: 30vw;
+      position: relative;
+      top: 8%;
+      margin: auto;
+    background-image: url(images/educationsearch.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 #education-cards{
     width: 90vw;
     height: 150vh;
    
     position: relative;
-    top: 30%;
+    top: 20%;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
